@@ -6,13 +6,11 @@
     --main-gray: #c44343;
   }
   
-  /* Base reset */
+
   * {
     margin: 0;
     padding: 0;
   }
-  
-  /* box-sizing and font sizing */
   *,
   *::before,
   *::after {
@@ -96,7 +94,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: var(--main-red);
+    background: rgb(52, 179, 252);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
   }
@@ -109,11 +107,11 @@
   .nav-list a {
     display: block;
     font-size: 2.2rem;
-    padding: 2rem;
+    padding: 1rem;
   }
 
   .nav a:hover{
-    color: aqua;
+    color: rgb(224, 49, 49);
   }
   
   @media (max-width: 28.75em) {
@@ -136,8 +134,8 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #000;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    background-color: rgb(53, 52, 52);
+    
   }
   
   .welcome-section > p {
@@ -158,6 +156,7 @@
     text-align: center;
     padding: 10rem 2rem;
     background: var(--main-blue);
+    background-color: rgb(73, 132, 167);
   }
   
   .projects-section-header {
@@ -200,7 +199,7 @@
   }
   
   .code {
-    color: black,
+    color: black;
     transition: color 0.3s ease-out;
   }
   
@@ -225,6 +224,9 @@
     border-radius: 2px;
     font-size: 15px;
     color: white;
+  }
+  .btn:hover{
+      background-color: rgb(235, 95, 95) ;
   }
   
 
@@ -276,7 +278,7 @@
   
   .contact-details:hover {
     transform: translateY(8px);
-    color: aqua;
+    
   }
   
   /* Footer */
