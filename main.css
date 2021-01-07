@@ -213,6 +213,9 @@
   .project:hover .code {
     color: #ff7f50;
   }
+  .project-title:hover{
+    color: #ff7f50;
+  }
   
   .project-image {
     height: 200px;
